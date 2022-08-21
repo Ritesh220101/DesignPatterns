@@ -1,0 +1,15 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.DietInfo;
+
+public class MementoTest {
+
+	public static void main(String[] args) {
+		DietInfo diet = new DietInfo("ritz", 1, 70);
+		System.out.println(diet);
+		
+		diet.setDayNumberAndWeight(2, 69);
+
+	}
+
+}

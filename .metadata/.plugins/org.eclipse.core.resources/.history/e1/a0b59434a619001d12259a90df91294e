@@ -1,0 +1,9 @@
+package com.aurionpro.model;
+
+public class Memento {
+
+	public Memento(Employee employee) {
+		
+	}
+
+}

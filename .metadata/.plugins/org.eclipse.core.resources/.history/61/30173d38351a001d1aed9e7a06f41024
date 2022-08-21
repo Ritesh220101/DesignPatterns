@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class Square extends Shape {
+
+	@Override
+	public String drawing() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.aurionpro.model;
+//This pattern involves an interface which acts as a bridge which makes
+//the functionality of concrete classes independent from interface implementer classes.
+//Both types of classes can be altered structurally without affecting each other.
+
+public interface IDraw {
+	void draw();
+}

@@ -1,0 +1,18 @@
+package com.aurionpro.model;
+
+public class Game {
+	private String missionProgress;
+
+	public String getMissionProgress() {
+		return missionProgress;
+	}
+
+	public void setMissionProgress(String missionProgress) {
+		this.missionProgress = missionProgress;
+	}
+
+	public SaveGame loadGame() {
+		return new SaveGame(missionProgress);
+	}
+	
+}

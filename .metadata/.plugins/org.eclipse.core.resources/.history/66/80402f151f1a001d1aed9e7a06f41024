@@ -1,0 +1,18 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.GoldenHat;
+import com.aurionpro.model.RibonetHat;
+import com.aurionpro.model.StandardHat;
+
+public class HatDecoratorTest {
+
+	public static void main(String[] args) {
+		StandardHat standard = new StandardHat();
+		GoldenHat golden = new GoldenHat(standard);
+		RibonetHat ribon = new RibonetHat(golden);
+		System.out.println(ribon.getName());
+		System.out.println(ribon.getDescription());
+		
+	}
+
+}

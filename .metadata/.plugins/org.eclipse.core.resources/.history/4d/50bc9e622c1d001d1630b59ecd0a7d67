@@ -1,0 +1,13 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.Game;
+
+public class GameTest {
+
+	public static void main(String[] args) {
+		Game gta = new Game();
+		gta.setMissionProgress("C.R.A.S.H.");	
+		
+	}
+
+}

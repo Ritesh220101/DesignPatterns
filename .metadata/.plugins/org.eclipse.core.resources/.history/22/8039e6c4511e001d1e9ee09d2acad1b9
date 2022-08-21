@@ -1,0 +1,15 @@
+package com.aurionpro.model;
+
+public class Save {
+	private String missionName;
+
+	public Save(String missionProgress) {
+		super();
+		this.missionName = missionProgress;
+	}
+
+	public String getMissionProgress() {
+		return missionName;
+	}
+	
+}

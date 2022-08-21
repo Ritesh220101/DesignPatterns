@@ -1,0 +1,24 @@
+package com.aurionpro.model;
+
+public class RibonnedHat extends HatDecorator {
+
+	public RibonnedHat(IHat hat) {
+		super(hat);	
+	}
+
+	@Override
+	public String getName() {
+		return "Ribonet "+super.getName();
+	}
+
+	@Override
+	public String getDescription() {	
+		return "Ribonet & "+super.getDescription();
+	}
+	
+	@Override
+	public double getPrice() {
+		return 2000+super.getPrice();
+	}
+	
+}

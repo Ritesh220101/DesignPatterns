@@ -1,0 +1,11 @@
+package com.aurionpro.model;
+
+public class Originator {
+	Employee employee;
+
+	public Employee getEmployee() {
+		return employee;
+	}
+	
+	
+}

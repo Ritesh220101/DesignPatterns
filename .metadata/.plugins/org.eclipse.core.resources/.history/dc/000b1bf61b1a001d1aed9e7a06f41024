@@ -1,0 +1,19 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.BlueCircle;
+
+import com.aurionpro.model.Circle;
+import com.aurionpro.model.RedCircle;
+
+public class CircleTest {
+
+	public static void main(String[] args) {
+		Circle c1 = new Circle(new RedCircle());
+		c1.drawing();
+		
+		Circle c2 = new Circle(new BlueCircle());
+		c2.drawing();;
+	
+	}
+
+}

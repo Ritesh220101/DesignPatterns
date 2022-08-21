@@ -1,0 +1,16 @@
+package com.aurionpro.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class GameLoadMenu {
+	private List<SaveGame> savedMissions = new ArrayList<>();
+	
+	public void saveGameProgress(SaveGame save) {
+		savedMissions.add(save);
+	}
+	
+	public SaveGame loadGame(int index) {
+		return savedMissions.get(index);
+	}
+}

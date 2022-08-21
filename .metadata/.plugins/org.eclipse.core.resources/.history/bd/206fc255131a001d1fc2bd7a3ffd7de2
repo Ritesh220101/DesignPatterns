@@ -1,0 +1,14 @@
+package com.aurionpro.model;
+
+public abstract class Shape {
+	IDraw draw;
+
+	public Shape(IDraw idraw) {
+		super();
+		this.draw = idraw;
+	}
+
+	public abstract void draw();
+	
+	
+}

@@ -1,0 +1,21 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.DietInfo;
+import com.aurionpro.model.DietInfoCaretaker;
+
+public class MementoTest {
+
+	public static void main(String[] args) {
+		DietInfoCaretaker caretaker = new DietInfoCaretaker();
+		
+		DietInfo diet = new DietInfo("ritz", 1, 70);
+		System.out.println(diet);
+		
+		diet.setDayNumberAndWeight(2, 69);
+		System.out.println(diet);
+		
+		caretaker.saveState(diet);
+
+	}
+
+}

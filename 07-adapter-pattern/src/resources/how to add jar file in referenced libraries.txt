@@ -1,0 +1,1 @@
+first you need to export the class to jar file after that you need to right click on jar-file then go to Build path after that click on add to build path.

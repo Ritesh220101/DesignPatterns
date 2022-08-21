@@ -1,0 +1,26 @@
+package com.aurionpro.test;
+
+import com.aurionpro.model.CareTaker;
+import com.aurionpro.model.Employee;
+import com.aurionpro.model.Originator;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Originator originator = new Originator();
+		CareTaker careTaker = new CareTaker();
+		
+		originator.setEmployee(new Employee(1, "ritz", 30000));
+		careTaker.add(originator.saveStatetoMemento());
+		
+		originator.setEmployee(new Employee(2, "jtipt", 40000));
+		careTaker.add(originator.saveStatetoMemento());
+		
+		originator.setEmployee(new Employee(3, "kartrix", 50000));
+		careTaker.add(originator.saveStatetoMemento());
+		
+		originator.setEmployee(new Employee(4, "zitr", 60000));
+
+	}
+
+}

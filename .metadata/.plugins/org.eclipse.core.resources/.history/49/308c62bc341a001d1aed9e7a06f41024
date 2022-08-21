@@ -1,0 +1,10 @@
+package com.aurionpro.model;
+
+public class BlueCircle implements IDraw {
+
+	@Override
+	public String fill() {
+		return "Filling with blue color";
+	}
+
+}

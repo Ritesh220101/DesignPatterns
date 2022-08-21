@@ -1,0 +1,10 @@
+package com.aurionpro.model;
+
+public class BlueCircle implements IDraw {
+
+	@Override
+	public void draw() {
+		System.out.println("Drawing a blue circle");
+	}
+
+}

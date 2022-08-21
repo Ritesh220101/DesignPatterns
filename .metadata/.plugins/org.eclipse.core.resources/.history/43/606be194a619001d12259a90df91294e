@@ -1,0 +1,5 @@
+package com.aurionpro.model;
+
+public class CareTaker {
+	private List<Memento> mementoList =
+}

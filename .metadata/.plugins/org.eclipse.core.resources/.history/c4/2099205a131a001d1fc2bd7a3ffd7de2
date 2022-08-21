@@ -1,0 +1,14 @@
+package com.aurionpro.model;
+
+public class Circle extends Shape {
+
+	public Circle(IDraw idraw) {
+		super(idraw);
+	}
+
+	@Override
+	public void draw() {
+		draw.draw();
+	}
+
+}
